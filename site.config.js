@@ -2,13 +2,14 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "4TT4",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "ML Dev",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
-    instagram: "",
+    image: "/avatar.png",
+    role: "ML Developer & Music Artist",
+    bio: "Sharing everything I learn about music & audio-processing",
+    email: "4tt4official@gmail.com",
+    linkedin: "aarush-aggarwal-iam4tart",
+    github: "4TT4",
+    instagram: "iam4tt4",
+    twitter: "iam4tt4",
   },
   projects: [
     {
@@ -18,8 +19,9 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "4TT4-log",
-    description: "welcome to morethan-log!",
+    title: "4TAudio Log",
+    description: "Sharing everything I learn about music & audio-processing",
+    theme: "light",
   },
 
   // CONFIG configration (required)
@@ -53,7 +55,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: true,
+    enable: false,
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
