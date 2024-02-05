@@ -5,6 +5,7 @@ import {
   AiOutlineGithub,
   AiOutlineMail,
   AiFillLinkedin,
+  AiOutlineTwitter,
 } from "react-icons/ai"
 import styled from "@emotion/styled"
 
@@ -20,7 +21,7 @@ const ContactCard: React.FC = () => {
             target="_blank"
           >
             <AiOutlineGithub className="icon" />
-            <div className="name">github</div>
+            <div className="name">Github</div>
           </a>
         )}
         {CONFIG.profile.instagram && (
@@ -30,7 +31,7 @@ const ContactCard: React.FC = () => {
             target="_blank"
           >
             <AiOutlineInstagram className="icon" />
-            <div className="name">instagram</div>
+            <div className="name">Instagram</div>
           </a>
         )}
         {CONFIG.profile.email && (
@@ -41,7 +42,7 @@ const ContactCard: React.FC = () => {
             css={{ overflow: "hidden" }}
           >
             <AiOutlineMail className="icon" />
-            <div className="name">email</div>
+            <div className="name">Email</div>
           </a>
         )}
         {CONFIG.profile.linkedin && (
@@ -51,7 +52,17 @@ const ContactCard: React.FC = () => {
             target="_blank"
           >
             <AiFillLinkedin className="icon" />
-            <div className="name">linkedin</div>
+            <div className="name">Linkedin</div>
+          </a>
+        )}
+        {CONFIG.profile.twitter && (
+          <a
+            href={`https://www.twitter.com/${CONFIG.profile.twitter}`}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineTwitter className="icon" />
+            <div className="name">Twitter</div>
           </a>
         )}
       </StyledWrapper>
