@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "4TT4",
-    image: "https://i.imgur.com/91A9wex.png",
+    image: "/avatar-circle.png",
     role: "ML Developer & Music Artist",
     bio: "Sharing everything I learn about music & audio-processing",
     email: "4tt4official@gmail.com",
