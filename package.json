@@ -1,10 +1,10 @@
 {
-  "name": "morethan-log",
+  "name": "4taudio-log",
   "version": "1.3.0",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/morethanmin/morethan-log.git"
+    "url": "https://github.com/4TT4/4TAudio.git"
   },
   "scripts": {
     "dev": "next dev",
