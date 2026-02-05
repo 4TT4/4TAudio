@@ -8,6 +8,7 @@ import { queryKey } from "src/constants/queryKey"
 import { GetStaticProps } from "next"
 import { dehydrate } from "@tanstack/react-query"
 import { filterPosts } from "src/libs/utils/notion"
+import Head from "next/head";
 
 export const getStaticProps: GetStaticProps = async () => {
   const posts = filterPosts(await getPosts())
@@ -31,6 +32,12 @@ const FeedPage: NextPageWithLayout = () => {
 
   return (
     <>
+      <Head>
+        <meta
+          name="google-site-verification"
+          content="c1cLr6iKmJr1AO-vMbMkxBCxPyTVWGVnHLPcecfZ6b4"
+        />
+      </Head>
       <MetaConfig {...meta} />
       <Feed />
     </>
